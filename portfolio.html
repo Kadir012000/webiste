@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio - General Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>GV<span>General Development</span></h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html" class="active">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Portfolio</h1>
+            <p>Explore Our Latest Projects and Success Stories</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Overview -->
+    <section class="portfolio-overview">
+        <div class="container">
+            <div class="section-intro">
+                <h2>Featured Projects</h2>
+                <p>Discover our diverse portfolio of successful projects across different industries and technologies. Each project represents our commitment to excellence and innovation.</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+                <button class="filter-btn" data-filter="seo">SEO Projects</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <!-- Web Development Project -->
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://via.placeholder.com/600x400" alt="E-Commerce Platform">
+                    <div class="portfolio-overlay">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured online store with advanced filtering and payment integration</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-code"></i> React.js, Node.js</span>
+                            <span><i class="fas fa-clock"></i> 6 months</span>
+                        </div>
+                        <a href="#" class="cta-button">View Case Study</a>
+                    </div>
+                </div>
+
+                <!-- Mobile App Project -->
+                <div class="portfolio-item" data-category="mobile">
+                    <img src="https://via.placeholder.com/600x400" alt="Fitness Tracking App">
+                    <div class="portfolio-overlay">
+                        <h3>Fitness Tracking App</h3>
+                        <p>Cross-platform mobile app for workout tracking and nutrition planning</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-code"></i> React Native</span>
+                            <span><i class="fas fa-clock"></i> 4 months</span>
+                        </div>
+                        <a href="#" class="cta-button">View Case Study</a>
+                    </div>
+                </div>
+
+                <!-- UI/UX Design Project -->
+                <div class="portfolio-item" data-category="ui">
+                    <img src="https://via.placeholder.com/600x400" alt="Banking App UI">
+                    <div class="portfolio-overlay">
+                        <h3>Banking App UI</h3>
+                        <p>Modern and intuitive banking interface design with enhanced security features</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-paint-brush"></i> Figma, Adobe XD</span>
+                            <span><i class="fas fa-clock"></i> 3 months</span>
+                        </div>
+                        <a href="#" class="cta-button">View Case Study</a>
+                    </div>
+                </div>
+
+                <!-- SEO Project -->
+                <div class="portfolio-item" data-category="seo">
+                    <img src="https://via.placeholder.com/600x400" alt="SEO Optimization">
+                    <div class="portfolio-overlay">
+                        <h3>E-commerce SEO</h3>
+                        <p>Comprehensive SEO optimization for an online retail platform</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-chart-line"></i> 200% Traffic Increase</span>
+                            <span><i class="fas fa-clock"></i> 6 months</span>
+                        </div>
+                        <a href="#" class="cta-button">View Case Study</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Statistics -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Team Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2>Client Testimonials</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"General Development transformed our business with their innovative solutions. Their team's expertise and dedication were instrumental in our success."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" alt="Client">
+                        <div class="author-info">
+                            <h4>John Smith</h4>
+                            <p>CEO, TechCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"The mobile app they developed for us exceeded our expectations. Their attention to detail and user experience was outstanding."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" alt="Client">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Product Manager, AppTech</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Their SEO services helped us achieve remarkable growth in organic traffic. Highly recommended for digital marketing solutions."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/60x60" alt="Client">
+                        <div class="author-info">
+                            <h4>Michael Brown</h4>
+                            <p>Marketing Director, GrowthCo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Let's create something amazing together.</p>
+            <a href="contact.html" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>General Development is your partner in digital transformation, delivering innovative solutions for your business needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <a href="tel:+4367763103088"><i class="fas fa-phone"></i> +43 677 631 030 88</a>
+                    <a href="mailto:info@gv-development.com"><i class="fas fa-envelope"></i> info@gv-development.com</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 General Development by Emrah Bajric. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

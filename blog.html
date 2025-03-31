@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - General Development</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>GV<span>General Development</span></h1>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="blog.html" class="active">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Blog Hero Section -->
+    <section class="page-hero">
+        <div class="container">
+            <h1>Our Blog</h1>
+            <p>Insights, Tutorials, and Development Stories</p>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All Posts</button>
+                <button class="category-btn" data-category="tutorials">Tutorials</button>
+                <button class="category-btn" data-category="projects">Projects</button>
+                <button class="category-btn" data-category="technology">Technology</button>
+                <button class="category-btn" data-category="insights">Insights</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="blog-grid">
+        <div class="container">
+            <div class="posts-grid">
+                <!-- Featured Post -->
+                <article class="blog-post featured">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/800x400" alt="Featured Post">
+                        <div class="post-category">Featured</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> March 31, 2025</span>
+                            <span><i class="far fa-user"></i> Emrah Bajric</span>
+                        </div>
+                        <h2>Building Custer OS: Our Journey in Operating System Development</h2>
+                        <p>Started 6 months ago, we've made significant progress with our first prototype completed within a month. Join us as we share our journey in developing this innovative operating system from scratch.</p>
+                        <a href="blog/custer-os-development.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <!-- Regular Posts -->
+                <article class="blog-post" data-category="tutorials">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Tutorial Post">
+                        <div class="post-category">Tutorials</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> March 30, 2025</span>
+                            <span><i class="far fa-user"></i> Galib Beganovic</span>
+                        </div>
+                        <h3>Getting Started with Mobile App Development</h3>
+                        <p>A comprehensive guide to mobile app development for beginners.</p>
+                        <a href="blog/mobile-app-development.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="projects">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Project Post">
+                        <div class="post-category">Projects</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> March 29, 2025</span>
+                            <span><i class="far fa-user"></i> Emrah Bajric</span>
+                        </div>
+                        <h3>Game Development: From Concept to Launch</h3>
+                        <p>Behind the scenes of our latest game development project.</p>
+                        <a href="blog/game-development.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-post" data-category="technology">
+                    <div class="post-image">
+                        <img src="https://via.placeholder.com/400x300" alt="Technology Post">
+                        <div class="post-category">Technology</div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span><i class="far fa-calendar"></i> March 28, 2025</span>
+                            <span><i class="far fa-user"></i> Galib Beganovic</span>
+                        </div>
+                        <h3>Latest Trends in Software Development</h3>
+                        <p>Exploring the newest technologies and methodologies in software development.</p>
+                        <a href="blog/software-trends.html" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Newsletter Section -->
+            <div class="newsletter-section">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest updates and insights.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="submit-btn">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>General Development is your partner in digital transformation, delivering innovative solutions for your business needs.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Services</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <a href="tel:+4367763103088"><i class="fas fa-phone"></i> +43 677 631 030 88</a>
+                    <a href="mailto:info@gv-development.com"><i class="fas fa-envelope"></i> info@gv-development.com</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 General Development by Emrah Bajric. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html> 
